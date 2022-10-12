@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.container{
+    flex-basis: 100%;
+    background-color: rgb(216, 34, 34);
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    background-color: rgb(207, 135, 135);
+   flex-basis: 100px;
+   display: flex;
+  
+}
+
+
+.logo{
+    background-color: brown;
+    flex-grow: 1;
+}
+
+.aside{
+    background-color: blueviolet;
+    flex-grow: 4;
+}
+
+
+
+
+.home{
+    background-color: antiquewhite;
+    height: 400px;
+    display: flex;
+}
+
+
+.section-1{
+    background-color: rgb(228, 34, 34);
+    height: 400px;
+    display: flex;
+    margin: 20px;
+}
+
+.part-01{background-color: rgb(42, 165, 75);
+    flex-grow: 1;
+    margin: 20px;
+ 
+}
+.part-02{background-color: rgb(197, 160, 167);
+    flex-grow: 1;
+    margin: 20px;
+
+}
+.part-03{
+    background-color: rgb(218, 206, 39);
+    flex-grow: 1;
+    margin: 20px;
+
+}
+
+.about{
+    background-color: cornflowerblue;
+    height: 400px;
+}
+
+.review{
+    background-color: darkviolet;
+    display: flex;
+    height: 500px;
+}
+.jhondeo-01{background-color: brown;
+    flex-grow: 1;
+    margin: 20px;
+
+}
+
+.jhondeo-02{background-color: darkgoldenrod;
+    flex-grow: 1;
+    margin: 20px;
+
+}
+
+.jhondeo-03{background-color: gray;
+    flex-grow: 1;
+    margin: 20px;
+
+}
+
+.pricing{
+    background-color: darkgreen;
+    display: flex;
+    height: 700px;
+}
+.basic{
+    background-color: chartreuse;
+    flex-grow: 1;
+    margin: 20px;
+
+}
+.standard{
+    background-color: pink;
+    flex-grow: 1;
+    margin: 20px;
+}
+.premium{
+    background-color: maroon;
+    flex-grow: 1;
+    margin: 20px;
+
+}
+
+.contact{
+    background-color: violet;
+    display: flex;
+    height: 400px;
+
+}
+
+.contactus{
+
+    background-color: violet;
+    flex-grow: 2.5;
+}
+
+
+.contactus-1{
+    background-color: coral;
+    flex-grow: 0.5;
+    margin: 20px;
+
+}
+
+footer{
+    background-color: rgb(203, 210, 217);
+    height:100px;}
